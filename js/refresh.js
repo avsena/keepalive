@@ -8,7 +8,7 @@ let duracao = setInterval(() => {
             timer.innerHTML = segundos;
         } else {
             
-            if(confirm('Deseja permanecer conectado?') == true) {
+            if(confirm('Tempo limite de logon excedido. Deseja permanecer conectado?') == true) {
                 clearInterval(duracao);
                 location.reload();
             } else {
