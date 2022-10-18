@@ -1,6 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro);
+
 .principal {
     display: flex;
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%) no-repeat;
+    font-family: "Poppins";
 }
 
 .lado-esquerdo {
@@ -15,10 +18,14 @@
 .titulo {
     font-size: 60px;
     margin-bottom: 1rem;
+    color: #E0E0E0;
 }
 
 .mensagem {
     margin-bottom: 8rem;
+    color: #E0E0E0;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .principal-form {
@@ -30,6 +37,7 @@
 .login {
     font-size: 30px;
     align-self: flex-start;
+    color: #E0E0E0;
 }
 
 .principal-form-input {
