@@ -3,6 +3,7 @@
 ## 👨🏻‍💻 Descrição:
 - Tela de login para o sistema da Compass.
 - Tecnologias usadas: Html, CSS e JavaScript.
+- Projeto feito para entrega da Sprint 4.
 ***
 ### 🖥️ História 🖥️
 
