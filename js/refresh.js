@@ -1,4 +1,4 @@
-let segundos = 15;
+let segundos = 600;
 const timer = document.querySelector('.timer');
 
 let duracao = setInterval(() => {
