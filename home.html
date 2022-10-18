@@ -1,74 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/css-config/reset.css"/>
-    <link rel="stylesheet" href="./css/home.css"/>
-    <title>Compass - Home</title>
-  </head>
-  <body class="pagina-home">
-    <header class="cabecalho">
-      <div>
-        <img src="./img/LogoCompasso-Preto.svg" alt="Logo da ompass" />
-      </div class="imagem">
-      <div class="container-data_hora">
-        <div class="hora"></div>
-        <div class="data" id="datas"></div>
-      </div>
-      <div class="container-localizacao-clima">
-        <div class="localizacao">Cidade exemplo, BR</div>
-        <div class="clima">22º
-          <div>
-            <img class="icone-clima" />
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/css-config/reset.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <title>Compass - Home</title>
+</head>
+
+<body class="pagina-home">
+
+  <header class="cabecalho">
+    <div>
+      <img src="./img/LogoCompasso-Preto.svg" alt="Logo da ompass" />
+    </div class="imagem">
+    <div class="container-data_hora">
+      <div class="hora"></div>
+      <div class="data" id="datas"></div>
+    </div>
+    <div class="container-localizacao-clima">
+      <div class="localizacao">Passo Fundo, RS</div>
+      <div class="clima">22º<div>
+          <img src="./img/icons/" class="icone-clima" />
         </div>
       </div>
-    </header>
-    <main class="principal">
-      <p class="mission">Our mission is</p>
-      <p class="tx-portugues">Nossa missão é</p>
-      <p class="texto-ingles">to transform the world</p>
-      <p class="tx-portugues">transformar o mundo</p>
-      <p class="texto-ingles">building digital experiences</p>
-      <p class="tx-portugues">construindo experiências digitais</p>
-      <p class="texto-ingles">that enable our client´s growth</p>
-      <p class="tx-portugues">que permitam o crescimento dos nossos clientes</p>
-    </main>
-    <footer class="rodape">
-      <div class="container-rodape">
-        <span class="span-rodape">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a<br/> aberta em segundo plano e abra uma nova janela para continuar a navegar.</span>
-        <hr class="linha"/>
-        <span class="recarregar">Application refresh in</span>
-        <div class="contagem">
-          <div class="time">
-            <time class="timer">600</time>
-          </div>
-          <span class="segundos">seconds</span>
+    </div>
+  </header>
+
+  <main class="principal">
+    <p class="mission">Our mission is</p>
+    <p class="tx-portugues">Nossa missão é</p>
+    <p class="texto-ingles">to transform the world</p>
+    <p class="tx-portugues">transformar o mundo</p>
+    <p class="texto-ingles">building digital experiences</p>
+    <p class="tx-portugues">construindo experiências digitais</p>
+    <p class="texto-ingles">that enable our client´s growth</p>
+    <p class="tx-portugues">que permitam o crescimento dos nossos clientes</p>
+  </main>
+
+  <footer class="rodape">
+    <div class="container-rodape">
+      <span class="span-rodape">Essa janela do navegador é usada para manter sua sessão de autenticação ativa.
+        Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</span>
+      <hr class="linha" />
+      <span class="recarregar">Application refresh in</span>
+      <div class="contagem">
+        <div class="time">
+          <time class="timer">600</time>
         </div>
+        <span class="segundos">seconds</span>
       </div>
-      <div class="container-rodape-direita">
-        <a href="https://www.uol.com.br/" target="_blank" rel="noopener noreferrer">
-          <button type="button" class="botao-rodape botao-redirecionamento">Continuar Navegando</button>
-        </a>
-        <button type="button" class="button-rodape button-logout" id="sair">Logout</button>
-      </div>
-    </footer>
-    <script src="./js/data.js"></script>
-    <script src="./js/hora.js"></script>
-    <script src="./js/logout.js"></script>
-    <script src="./js/refresh.js"></script>
-  </body>
+    </div>
+    <div class="container-rodape-direita">
+      <a href="https://www.uol.com.br/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="botao-rodape botao-redirecionamento">Continuar Navegando</button>
+      </a>
+      <button type="button" class="button-rodape button-logout" id="sair">Logout</button>
+    </div>
+  </footer>
+
+  <script src="./js/clima.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/hora.js"></script>
+  <script src="./js/logout.js"></script>
+  <script src="./js/refresh.js"></script>
+
+</body>
+
 </html>
