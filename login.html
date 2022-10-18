@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compass - Login</title>
-    <!-- CSS -->
     <link rel="stylesheet" href="./css/css-config/reset.css">
     <link rel="stylesheet" href="./css/login.css">
-    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -21,38 +19,40 @@
 
         <section class="principal">
 
-            <div class="principal--left">
+            <div class="lado-esquerdo">
                 <div class="principal-content">
-                    <h2 class="principal-title">Olá,</h2>
-                    <p class="principal-text">Para continuar navegando de forma segura, efetue o login na rede.</p>
-                    <form class="principal-form">
-                        <h3 class="principal-login-title">Login</h3>
+                    <h2 class="titulo">Olá,</h2>
+                    <p class="mensagem">Para continuar navegando de forma segura, efetue o login na rede.</p>
+                    <form class="principal-form usuario-senha">
+                        <h3 class="login">Login</h3>
                         <div class="principal-login">
                             <input type="text" id="user" placeholder="Usuário" required
-                                class="principal-form-input" autocomplete="off">
-                            <label for="user"><img src="./img/icone-user.svg" class="principal-form-icon"
+                                class="principal-form-input input-usuario" autocomplete="off">
+                            <label for="user"><img src="./img/icone-user.svg" class="icone"
                                 alt="User Login"></label>
                         </div>
                         <div class="principal-login">
                             <input type="password" id="password" placeholder="Senha" required
-                                class="principal-form-input">
-                            <label for="password"><img src="./img/icone-password.svg" class="principal-form-icon"
+                                class="principal-form-input input-senha">
+                            <label for="password"><img src="./img/icone-password.svg" class="icone"
                                 alt="Password Login"></label>
                         </div>
                         <p class="warning-text"></p>
-                        <button class="principal-form-btn" type="submit">Continuar</button>
+                        <button class="botao" type="submit">Continuar</button>
                     </form>
                 </div>
             </div>
-            <div class="principal--right">
-                <img src="./img/bg-notebook.png" alt="Notebook com a logo da Compass" class="principal-logo">
+
+            <div class="lado-direito">
+                <img src="./img/Logo-Compasso-Branco.svg" alt="Logo da Compass branco" class="logo">
             </div>
 
         </section>
 
     </main>
 
-    <script src="./scripts/login.js"></script>
+    <script src="./js/login.js"></script>
+
 </body>
 
 </html>
