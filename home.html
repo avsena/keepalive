@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet" />
+  <link href="//db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro" rel="stylesheet"
+    type="text/css" />
   <link rel="stylesheet" href="./css/css-config/reset.css" />
   <link rel="stylesheet" href="./css/home.css" />
   <title>Compass - Home</title>
@@ -19,30 +21,37 @@
 
   <header class="cabecalho">
     <div>
-      <img src="./img/LogoCompasso-Preto.svg" alt="Logo da ompass" />
+      <img src="./img/LogoCompasso-Preto.svg" alt="Logo da Compass" />
     </div class="imagem">
     <div class="container-data_hora">
-      <div class="hora"></div>
+      <div class="hora" id="horario"></div>
       <div class="data" id="datas"></div>
     </div>
-    <div class="container-localizacao-clima">
-      <div class="localizacao">Passo Fundo, RS</div>
-      <div class="clima">22º<div>
-          <img src="./img/icons/" class="icone-clima" />
-        </div>
+
+    <div class="card-body container-localizacao-clima">
+      <div class="container-img imagem icone-clima"></div>
+      <div class="city localizacao">Cidade Exemplo, BR</div>
+
+      
       </div>
+      <div class="container-temp mx-4 my-3 container-localizacao-clima">
+        <div class="clima">30<span>°c</span></div>
+      </div>
+    </div>
     </div>
   </header>
 
   <main class="principal">
-    <p class="mission">Our mission is</p>
-    <p class="tx-portugues">Nossa missão é</p>
-    <p class="texto-ingles">to transform the world</p>
-    <p class="tx-portugues">transformar o mundo</p>
-    <p class="texto-ingles">building digital experiences</p>
-    <p class="tx-portugues">construindo experiências digitais</p>
-    <p class="texto-ingles">that enable our client´s growth</p>
-    <p class="tx-portugues">que permitam o crescimento dos nossos clientes</p>
+    <div class="texto">
+      <p class="mission">Our mission is</p>
+      <p class="tx-portugues">Nossa missão é</p>
+      <p class="texto-ingles">to transform the world</p>
+      <p class="tx-portugues">transformar o mundo</p>
+      <p class="texto-ingles">building digital experiences</p>
+      <p class="tx-portugues">construindo experiências digitais</p>
+      <p class="texto-ingles">that enable our client´s growth</p>
+      <p class="tx-portugues">que permitam o crescimento dos nossos clientes</p>
+    </div>
   </main>
 
   <footer class="rodape">
