@@ -1,3 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro);
+
+body {
+    font-family: "Mark+Pro";
+}
+
 .pagina-home {
     color: #222222;
     background-color: #e0e0e0;
@@ -8,11 +14,7 @@
     height: 90px;
     display: flex;
     justify-content: space-around;
-    padding: 10px 10px;
-}
-
-.imagem {
-    padding-top: 10px;
+    padding: 10px 0px;
 }
 
 .container-data_hora {
@@ -23,15 +25,16 @@
 
 .hora {
     font-weight: 700;
-    font-size: 144px;
+    font-size: 125px;
     color: #222222;
 }
 
 .data {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 14px;
     color: #222222;
+    font-family: "Poppins";
 }
 
 .container-localizacao-clima {
@@ -45,19 +48,24 @@
 .localizacao {
     justify-content: end;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 22px;
     line-height: 18px;
 }
 
 .clima {
     position: relative;
+    font-size: 70px;
+    font-weight: 700;
 }
 
 .icone-clima {
     position: absolute;
     top: 10%;
-    right: 100%;
-    width: 35px;
+    width: 4px;
+}
+
+.container-img, .imagem {
+    width: 4px;
 }
 
 .span-temp {
@@ -79,36 +87,34 @@
 
 .mission {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 24px;
     color: #C12D18;
     text-align: right;
     font-weight: 700;
-    line-height: 81px;
+    
 }
 
 .texto-ingles {
     color: #C12D18;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 81px;
+    font-size: 36px;
     text-align: right;
 }
 
 .tx-portugues {
     text-align: right;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 36px;
     margin-bottom: 3vh;
 }
 
 .rodape {
     display: flex;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 }
 
@@ -117,7 +123,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 
@@ -150,11 +156,12 @@
     align-items: center;
 }
 
-.timer {
+.timer, .horario {
     font-weight: 700;
     font-size: 48px;
     line-height: 61px;
     margin-left: 16px;
+    font-family:'Lucida Sans';
 }
 
 .segundos {
@@ -173,8 +180,9 @@
     border: none;
   font-size: 0.8rem;
   font-weight: 400;
-  width: 130px;
+  width: 120px;
   cursor: pointer;
+  padding: 26.5px;
 }
 
 .botao-redirecionamento {
